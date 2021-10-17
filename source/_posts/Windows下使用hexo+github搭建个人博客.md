@@ -1,5 +1,7 @@
 ---
 title: Windows下使用hexo+github搭建个人博客
+date: 2021-10-17 17:30:02
+categories: 学习笔记
 ---
 
 ## 1. 环境搭建

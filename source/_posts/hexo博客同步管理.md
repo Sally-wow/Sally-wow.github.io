@@ -1,7 +1,7 @@
 ---
 title: 跨设备同步博客
 date: 2021-10-17 16:27:51
-tags:
+tags: 学习笔记
 ---
 
 ## 1. 新电脑中的环境搭建
@@ -18,7 +18,7 @@ tags:
 
    ```
    git add .
-   git commit -m "some descrption
+   git commit -m "some descrption"
    git push origin hexo
    hexo g -d
    ```
