@@ -1,14 +1,34 @@
 ---
 title: 跨设备同步博客
 date: 2021-10-17 16:27:51
-tags: 学习笔记
+categories: 学习笔记
+tags: hexo
 ---
 
 ## 1. 新电脑中的环境搭建
 
 1. 安装 Node.js、git、hexo
-2. clone远程仓库到本地 `git clone git@github.com:username/username.github.io.git`。
-3. 本地生成网站并开启博客服务器：`hexo g & hexo s`。如果一切正常，此时打开浏览器输入`http://localhost:4000/`已经可以看到博客正常运行了。
+
+2. clone远程仓库到本地 ：
+
+   ```
+   git clone git@github.com:username/username.github.io.git
+   ```
+
+3. 根据`packge.json`安装依赖：
+
+   ```
+   npm install
+   ```
+
+4. 本地生成网站并开启博客服务器：
+
+   ```
+   hexo g 
+   hexo s
+   ```
+
+   此时在浏览器输入`localhost:4000`，就可以看到博客正常运行。
 
 ## 2. 同步博客
 
