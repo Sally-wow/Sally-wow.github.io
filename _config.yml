@@ -97,7 +97,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape            # 设置主题样式
+#theme: landscape            # 设置主题样式
+theme: hexo-theme-landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -106,3 +107,23 @@ deploy:
   #repo: https://github.com/Sally-wow/Sally-wow.github.io.git        # github仓库HTTPS地址
   repo: git@github.com:Sally-wow/Sally-wow.github.io.git              # 通过SSH秘钥访问
   branch: master
+
+# yilia主题添加内容
+#jsonContent:
+#    meta: false
+#    pages: false
+#    posts:
+#      title: true
+#      date: true
+#      path: true
+#      text: false
+#      raw: false
+#      content: false
+#      slug: false
+#      updated: false
+#      comments: false
+#      link: false
+#      permalink: false
+#      excerpt: false
+#      categories: false
+#      tags: true
