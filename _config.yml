@@ -9,7 +9,6 @@ description: ''
 keywords: 周报
 author: Sun
 language: zh-CN
-timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -40,7 +39,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -108,22 +107,20 @@ deploy:
   repo: git@github.com:Sally-wow/Sally-wow.github.io.git              # 通过SSH秘钥访问
   branch: master
 
-# yilia主题添加内容
-#jsonContent:
-#    meta: false
-#    pages: false
-#    posts:
-#      title: true
-#      date: true
-#      path: true
-#      text: false
-#      raw: false
-#      content: false
-#      slug: false
-#      updated: false
-#      comments: false
-#      link: false
-#      permalink: false
-#      excerpt: false
-#      categories: false
-#      tags: true
+# 添加公式支持
+markdown_it_plus:
+  highlight: true
+  html: true
+  xhtmlOut: true
+  breaks: true
+  langPrefix:
+  linkify: true
+  typographer:
+  quotes: “”‘’
+  plugins:
+    - plugin:
+        name: markdown-it-katex
+        enable: true
+    - plugin:
+        name: markdown-it-mark
+        enable: false

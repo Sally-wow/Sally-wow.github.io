@@ -16,13 +16,6 @@ fancybox: true
 
 # Footer
 copyright:
-# Need help choosing? Please see...
-# https://creativecommons.org/choose/
-# https://choosealicense.com/
-# You can use html like below...
-# copyright: |-
-#   <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></br>
-#   All website licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></br>
 
 # Sidebar 侧边栏风格：您可以选择left、right、bottom或false。
 sidebar: right
@@ -46,12 +39,8 @@ show_count: false
 recent_posts_limits: 5
 
 # Miscellaneous
-google_analytics:
-gauges_analytics:
 favicon: /favicon.png
-twitter:
-fb_admins:
-fb_app_id:
+
 
 # valine comment system. https://valine.js.org
 valine:
