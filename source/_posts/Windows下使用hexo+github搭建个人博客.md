@@ -37,9 +37,10 @@ categories: 学习笔记
 
   在命令行输入：
 
-  `git config --global user.name "用户名"`
-
-  `git config --global user.email "邮箱"`
+  ```bash
+  git config --global user.name "用户名"
+  git config --global user.email "邮箱"
+  ```
 
 ## 2. 部署博客
 
@@ -47,23 +48,35 @@ categories: 学习笔记
 
 - 创建博客文件夹
 
-  在要放置博客文件的路径下，初始化一个博客：`hexo init blog`，并命名为blog，此时当前路径下会生成一个blog文件夹。
+  在要放置博客文件的路径下，初始化一个博客并命名：
+
+  ```bash
+  hexo init blog
+  ```
+
+  此时当前路径下会生成一个文件名为blog的文件夹。
 
 - 生成博客
 
   编写Markdown格式的文本，放在`blog\source\_posts`路径下
 
-  让hexo框架自动渲染生成博客：`hexo g`
+  让hexo框架自动渲染生成博客：
 
-- 在本地服务器上运行博客：`hexo s` 
+  ```bash
+  hexo g
+  ```
 
-  `ctrl+c`退出
+- 在本地服务器上运行博客：
 
-  部署成功后，可以在本机浏览器输入`localhost:4000`，预览效果
+  ```bash
+  hexo s
+  ```
+
+  部署成功后，可以在本机浏览器输入`localhost:4000`，预览效果。命令行下`ctrl+c`可以关闭服务并退出。
 
   可以在执行时使用 `-p` 选项指定其他端口，如下：
-
-  ```
+  
+  ```bash
   hexo server -p 5000
   ```
 
@@ -71,7 +84,9 @@ categories: 学习笔记
 
 - 安装git部署工具
 
-  `cnpm install hexo-deployer-git --save`
+  ```bash
+  cnpm install hexo-deployer-git --save
+  ```
 
 - 创建GitHub仓库
 
@@ -96,11 +111,11 @@ categories: 学习笔记
 
 - 部署到github
 
-  `hexo g`
-
+  ```bash
+  hexo g
+  ```
+  
   部署成功后可以访问https://sally-wow.github.io/
-
-
 
 ## 更新博客
 
