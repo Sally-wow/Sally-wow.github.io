@@ -14,20 +14,29 @@ categories: 学习笔记
 
 - 命令行查看安装版本
 
-  `node -v`       
+  ```bash
+  node -v
+  ```
 
 - 安装cnpm包管理工具提高下载速度
 
-  `npm install -g cnpm --registry=https://registry.npm.taobao.org`
+  ```bash
+  npm install -g cnpm --registry=https://registry.npm.taobao.org
+  ```
 
 ### 02、安装hexo
 
 - 命令行下安装
 
-  `cnpm install -g hexo-cli`
+  ```bash
+  cnpm install -g hexo-cli
+  ```
 
 - 验证是否安装成功
-  `hexo -v`
+  
+  ```bash
+  hexo -v
+  ```
 
 ### 03、安装 Git
 
@@ -128,9 +137,6 @@ categories: 学习笔记
    ```
 
 2. 生成网站静态文件到默认设置的 public 文件夹。
-
-   - 便于查看网站生成的静态文件或者手动部署网站；
-   - 如果使用自动部署，不需要先执行该命令；
 
    ```
    hexo g
