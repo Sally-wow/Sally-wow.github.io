@@ -15,7 +15,7 @@ mathjax: true
    git clone git@github.com:username/username.github.io.git
    ```
 
-3. 根据`packge.json`安装依赖：
+3. 根据仓库中的`packge.json`安装依赖：
 
    ```bash
    npm install
