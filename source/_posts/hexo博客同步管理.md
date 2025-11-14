@@ -2,7 +2,7 @@
 title: 跨设备同步博客
 date: 2021-10-17 16:27:51
 categories: 学习笔记
-mathjax: true
+mathjax: trueadd
 ---
 
 ## 1. 新电脑中的环境搭建
