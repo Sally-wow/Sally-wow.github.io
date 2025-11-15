@@ -7,3 +7,6 @@ public/
 .deploy*/
 /.deploy_git
 /public
+
+# 自动识别文本文件，并统一在仓库中存储为LF
+* text=auto eol=lf
